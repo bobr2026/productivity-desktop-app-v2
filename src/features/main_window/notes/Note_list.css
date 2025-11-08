@@ -1,0 +1,65 @@
+
+.note_element p{
+    /* padding-top:3px ;
+    padding-bottom: 3px;
+    font-size: 18px;
+    text-align: center; */
+    border-bottom: 1px solid rgb(92, 90, 88);
+}
+.note_element{
+    display: flex;
+    flex-direction: column;
+        background-color: rgba(77, 81, 92, 0.589);
+   
+     color: rgb(255, 255, 255);
+   
+     margin-top: 10px;
+     font-size: 18px;
+     min-width: 150px;
+   
+     text-overflow: ellipsis;
+      /* white-space:wrap; Запрещаем перенос строк */
+    
+ 
+    ;
+     /* -webkit-box-orient: vertical;
+     display: block;
+     display: -webkit-box;
+     overflow: hidden!important;
+     text-overflow: ellipsis;
+     -webkit-line-clamp: 6; */
+   
+   
+   }
+   .note_element_title{
+    border-bottom: 1px solid rgb(92, 90, 88);
+   }
+   .note_data_updated{
+    border-bottom: 1px solid rgb(92, 90, 88);
+   }
+   .note_data_created{
+    border-bottom: 1px solid rgb(92, 90, 88);
+   }
+   /* @media (max-width:1200px) {
+    .folder_item img{
+        width: 130px;
+        height: 130px;
+        
+    } 
+    .folder_item:hover{
+        width: 150px;
+       
+    }
+    .folder_item{
+        width: 130px;
+    }
+    .folder_title{
+        width: 130px;
+        font-size: 16px;
+    }
+} */
+@media (max-width:900px) {
+   .note_element{
+
+   }
+    }

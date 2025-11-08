@@ -1,0 +1,71 @@
+.folder_icon{
+ width: 100px;
+ height: 100px;
+}
+
+.folder_icon_active{
+    width: 120px;
+    height: 120px;
+}
+.folder_grub_list{
+    margin-top: 10px;
+}
+.folder_grub_list ul{
+
+    list-style: none;
+    float: left;
+    display: flex;
+    flex-direction: row;
+
+}
+.folder_grub_list ul li{
+    margin-left: 15px;
+}
+.folders_grub_item{
+    color: black;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.folders_grub_item:hover{
+    margin-top: -5px;
+    border-bottom:1px solid #fff ;
+}
+.folders_grub_item_active{
+    margin-top: -5px;
+    border-bottom:1px solid #fff ;
+    color: black;
+    font-size: 18px;
+}
+.input_block_folder{
+
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+
+} 
+ .input_block_folder input{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+.add_folder_page button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 35px;
+}
+.add_folder_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input_block_folder label{
+    font-size: 20px;
+}
+.icom_block_title{
+    font-size: 20px;
+}
+

@@ -1,0 +1,34 @@
+.add_app_form{
+display: flex;
+flex-direction: column;
+
+margin: 0 auto;
+align-items: center;
+}
+.add_app_form input{
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+.add_app_form label{
+    font-size: 20px;
+}
+.add_app_form select{
+    margin-top: 5px;
+    align-self: center;
+width: 300px;
+height: 25px;
+}
+
+
+.buton_block{
+    display: flex;
+    flex-direction: column;
+}
+.buton_block button{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 200px;
+    height: 35px;
+}

@@ -1,0 +1,28 @@
+{
+  "identifier": "desktop-capability",
+  "platforms": [
+    "macOS",
+    "windows",
+    "linux"
+  ],
+  "windows": [
+   
+      "main",
+    "note_detels",
+   "grubs_and_category_meneger",
+      "add_folder_win",
+          "note_detels/:id",
+          "add_app_win"
+  ],
+  "permissions": [
+    "global-shortcut:default",
+    "core:webview:allow-create-webview-window",
+    "global-shortcut:allow-is-registered",
+    "global-shortcut:allow-register",
+    "global-shortcut:allow-unregister"
+
+
+
+ 
+  ]
+}

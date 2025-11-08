@@ -1,0 +1,14 @@
+.textarea_content_notes{
+    width:750px ;
+    height: 400px;
+    /* resize: none; */
+    font-size: 18px;
+      /* background-color: rgb(68, 71, 82); */
+   background-color: rgba(77, 81, 92, 0.589);
+    color: rgb(255, 255, 255);
+    
+  }
+  .page_note_detels{
+    display: flex;
+    flex-direction: column;
+  }
