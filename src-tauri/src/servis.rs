@@ -19,7 +19,7 @@ pub fn get_db_path() -> Option<PathBuf> {
     }
     
     // Добавляем название файла базы данных
-    dir_path.push("my_db.db");
+    dir_path.push("my_db_notes.db");
     
     Some(dir_path)
 }

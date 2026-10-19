@@ -28,6 +28,7 @@
 }
 .folders_grub_item:hover{
     margin-top: -5px;
+ 
     border-bottom:1px solid #fff ;
 }
 .folders_grub_item_active{
@@ -68,4 +69,3 @@
 .icom_block_title{
     font-size: 20px;
 }
-

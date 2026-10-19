@@ -4,7 +4,7 @@ mod servis;
 
 use servis::get_db_path;
 mod notes;
-use notes::{add_note, delete_note, get_all_notes, get_noteByID, update_note, get_all_notesByCategory_id , update_grub_notes___by_grub_id};
+use notes::{add_note, delete_note, get_all_notes, get_noteByID, get_all_notesByCategory_id , update_grub_notes___by_grub_id};
 mod folders;
 use folders::{add_folder, delete_folder, get_all_folders, update_folder, get_foldersByID,get_all_foldersByGrub_id , update_grub_folder___by_grub_id};
 mod apps;
@@ -56,9 +56,8 @@ name TEXT NOT NULL UNIQUE)",
     conn.execute(
         "
                          CREATE TABLE IF NOT EXISTS notes (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      note_id INTEGER PRIMARY KEY AUTOINCREMENT,
       title TEXT NOT NULL,
-      content TEXT,
       category_id INTEGER,
       created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -68,6 +67,9 @@ name TEXT NOT NULL UNIQUE)",
         [],
     )
     .map_err(|e| e.to_string())?;
+
+
+    
     conn.execute(
         "
               CREATE TABLE IF NOT EXISTS apps (
@@ -145,7 +147,6 @@ pub fn run() {
             get_all_notesByCategory_id,
             delete_note,
             get_all_notes,
-            update_note,
             add_note,
             add_folder,
             delete_folder,

@@ -19,7 +19,8 @@
     "global-shortcut:allow-register",
     "global-shortcut:allow-unregister",
     "process:default",
-    "dialog:allow-open", "dialog:default"
+    "dialog:allow-open", "dialog:default",
+    "core:window:allow-set-always-on-top"
     
   ]
 }

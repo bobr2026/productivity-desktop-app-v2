@@ -1,7 +1,8 @@
-# Tauri + React + Typescript
+# исходный код  productivity-desktop-app-v2
+## Установка:
+скачайте ==`admin app v2.exe`==запустите 
+далее при первом запуске откройте приложение и закройте 
+это нужно для инициализации sqllite
+запустите снова и можно будет пользоваться 
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
